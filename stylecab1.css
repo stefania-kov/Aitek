@@ -1,0 +1,194 @@
+footer {
+  background-color: #205692;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  color: white;
+}
+footer p {
+  font-family: "Tinos", serif !important;
+  font-size: 24px;
+  font-style: normal;
+  margin: 0;
+}
+
+
+header {
+  background-color: #205692;
+  padding: 10px 0;
+}
+.telegram-icon {
+  width: 64px;
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 10px;
+}
+.bar {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+}
+.telegram-button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+border: none;
+ border-radius: 5px;
+ color: #205692;
+ text-decoration: none;
+ transition: background-color 0.3s ease;
+   height: 64px;
+  width: 64px;
+}
+.telegram-button:hover {
+ background-color: #f0f0f0;
+}
+@media (max-width: 1150px) {
+.menu-toggle {
+  display: flex;
+   margin-right: 15px;
+}
+ .telegram-button {
+      margin-top: 5px;
+       margin-left: 10px;
+  }
+}
+
+form {
+  background-image: url('fotos/fon.svg'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  }
+.form-container {
+      padding: 20px;
+  background: white;
+  border-radius: 5px;
+}
+
+
+body {
+  font-family: "Tinos", serif !important;
+  background-color: #FAF8F8 !important;
+  font-size: 24px !important;
+}
+
+
+
+button {
+  background: #AED4DD !important;
+  border: #AED4DD !important;
+  color: black !important;
+  font-size: 24px !important;
+  font-family: "Tinos", serif !important;
+  font-style: normal !important;
+  margin-top: 50px !important;
+  border-radius: 30px !important;
+  width: 277px !important;
+}
+
+
+h1 {
+  font-family: "Tinos", serif !important;
+  font-size: 64px !important;
+  font-style: bold !important;
+  color: #205692 !important;
+  padding-bottom: 80px;
+  padding-top: 15px;
+}
+
+h2 {
+  padding-top: 15px;
+  font-family: "Tinos", serif !important;
+  font-size: 40px !important;
+  font-style: bold !important;
+  padding-bottom: 80px;
+  color: #205692 !important;
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+h1 {
+  margin-left: 80px;
+}
+.header-container img {
+  order: -1;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .header-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  h1 {
+      margin-left: 0;
+      margin-top: 20px;
+      text-align: center; 
+       width: 100%; 
+  }
+}
+
+
+#specialist-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.specialist-card {
+  width: 180px;
+}
+
+.specialist-card:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.specialist-card .card-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 190px;  
+ }
+.specialist-card .card-body .card-text{
+ margin: 0;
+}
+.experience {
+  display: none;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.specialist-card:hover .experience,
+.specialist-card.active .experience {
+  display: block;
+}
+#selected-specialist {
+width: 100%; 
+ display: block; 
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  font-weight: bold;
+  margin-left: 2px; 
+}
+

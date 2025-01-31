@@ -1,0 +1,135 @@
+footer {
+    background-color: #205692;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    color: white;
+  }
+  footer p {
+    font-family: "Tinos", serif !important;
+    font-size: 24px;
+    font-style: normal;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #205692;
+    padding: 10px 0;
+  }
+  .telegram-icon {
+    width: 64px;
+  }
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .bar {
+    width: 24px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  .telegram-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+  border: none;
+   border-radius: 5px;
+   color: #205692;
+   text-decoration: none;
+   transition: background-color 0.3s ease;
+     height: 64px;
+    width: 64px;
+  }
+  .telegram-button:hover {
+   background-color: #f0f0f0;
+  }
+  @media (max-width: 1150px) {
+  .menu-toggle {
+    display: flex;
+     margin-right: 15px;
+  }
+   .telegram-button {
+        margin-top: 5px;
+         margin-left: 10px;
+    }
+  }
+    
+  
+  body {
+    font-family: "Tinos", serif !important;
+    background-color: #FAF8F8 !important;
+    font-size: 24px !important;
+  }
+  
+  
+  
+  h1 {
+    font-family: "Tinos", serif !important;
+    font-size: 64px !important;
+    font-style: bold !important;
+    color: #205692 !important;
+    padding-bottom: 80px;
+    padding-top: 15px;
+  }
+  
+  h2 {
+    padding-top: 15px;
+    font-family: "Tinos", serif !important;
+    font-size: 40px !important;
+    font-style: bold !important;
+    padding-bottom: 80px;
+    color: black !important;
+  }
+
+  h3 {
+    font-family: "Tinos", serif !important;
+    font-size: 20px !important;
+    font-style: bold !important;
+    color: black !important;
+  }
+
+  .price {
+    font-family: "Tinos", serif !important;
+    font-size: 16px !important;
+    font-style: bold !important;
+    color: black !important;
+  }
+  .card-text{
+    font-family: "Tinos", serif !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    color: black !important;
+}
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  h1 {
+   display: flex;
+    margin-left: 80px;
+    align-items: center;
+  }
+  .header-container img {
+  order: -1;
+  max-width: 100%;
+  }
+  @media (max-width: 768px) {
+  .header-container {
+      flex-direction: column;
+    }
+   h1 {
+        margin-left: 0; 
+         margin-top: 20px;
+    }
+  }
+
+  
+  

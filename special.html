@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Cпециалисты</title>  
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="fotos/logo.png" alt="Логотип" class="logo mr-2" style="width: 230px;">
+                </a>
+                 <div class="d-flex">
+                         <butt class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </butt>
+                   </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                         <li class="nav-item">
+                            <a href="https://t.me/aitek_vl_bot" class="telegram-button" target="_blank" rel="noopener noreferrer">
+                                <img class="telegram-icon" src="https://img.icons8.com/3d-fluency/94/telegram.png" alt="telegram"/>
+                            </a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Каталог товаров</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cabinet.html">Заявка на ремонт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <style>
+        .specialists-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            width: 336px;
+            height: 330px;
+            margin: 40px;
+            position: relative;
+            border: 3px solid #AED4DD;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding-top: 20px; 
+            
+        }
+        .card-img-top {
+            width: 330px;
+            height: 200px; 
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+        .card-text {
+            margin-bottom: 0;
+        }
+    </style>
+    <main class="container text-center">
+        <div class="main-content">
+            <h1 class="text-left">Наши специалисты</h1>
+            <div class="specialists-container">
+                 <div class="col-md-4 specialist-card">
+                    <div class="card">
+                        <img src="fotos/alex.jpg" class="card-img-top" alt="Специалист 1">
+                        <div class="card-body">
+                            <p class="card-title">Васильев</p>
+                            <p class="card-title">Алексей Витальевич</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 specialist-card">
+                    <div class="card">
+                        <img src="fotos/pit.jpg" class="card-img-top" alt="Специалист 2">
+                        <div class="card-body">
+                            <p class="card-title">Катин</p>
+                            <p class="card-title">Петр Романович</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 specialist-card">
+                    <div class="card">
+                        <img src="fotos/cerg.png" class="card-img-top" alt="Специалист 3">
+                        <div class="card-body">
+                            <p class="card-title">Вешневский</p>
+                            <p class="card-title">Сергей Алесеевич</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 specialist-card">
+                    <div class="card">
+                        <img src="fotos/vlad.png" class="card-img-top" alt="Специалист 4">
+                        <div class="card-body">
+                            <p class="card-title">Рудковский</p>
+                            <p class="card-title">Владислав Станисловович</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 specialist-card">
+                    <div class="card">
+                        <img src="fotos/gol.png" class="card-img-top" alt="Специалист 5">
+                        <div class="card-body">
+                            <p class="card-title">Голубев</p>
+                            <p class="card-title">Петр Андреевич</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 specialist-card">
+                    <div class="card">
+                        <img src="fotos/Lew.png" class="card-img-top" alt="Специалист 6">
+                        <div class="card-body">
+                            <p class="card-title">Лежнев</p>
+                            <p class="card-title">Константин Иванович</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer style="margin-top: auto;">    
+        <div class="container text-center p-4">
+            <p>&copy; 2025
+            </p>
+        </div>
+    </footer>
+<script src="js/script3.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+   document.querySelector('.menu-toggle').addEventListener('click', function() {
+   document.querySelector('.navbar-collapse').classList.toggle('show');
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>
